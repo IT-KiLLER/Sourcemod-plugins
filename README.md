@@ -14,7 +14,7 @@
   - Custom hostname (custom version)
   - [CS:GO] Longer game round
   - Quick fix for connection kick (WINDOWS)
-  - Entwatch cs:Go
+  - Entwatch
   - Entwatch helper
   - Admin room finder !adminroom
   - Killmusic
