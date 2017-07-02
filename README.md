@@ -1,14 +1,14 @@
 # Sourcemod-plugins, CS:GO
 
-50 plugins that are created or modified by me will be released
+50 plugins that are created or modified/updated by me will be released
 
 Released:
-soon
+  - Plant bomb anywhere
+  - Alltalk
+  - hide teammeates
 
 On hold:
-  - Alltalk
-  - !hide teammeates
-  - [CS:GO] Plant bomb anywhere
+  - !endround !endwarmup
   - Custom hostname (custom version)
   - [CS:GO] Longer game round
   - Quick fix for connection kick (WINDOWS)
@@ -20,10 +20,11 @@ On hold:
   - Noblock (custom version)
   - HP viewer (eg. boss)
   - Remove smoke particles !smoke
-  - !endround !endwarmup
   - Spawn protection
   
 License: 
+
+Updated 2017-07-02
 
 
 
