@@ -2,12 +2,12 @@
 
 50 plugins that are created or modified/updated by me will be released
 
-Released:
+### Released:
   - Plant bomb anywhere
   - Alltalk
   - hide teammeates
 
-On hold:
+### On hold:
   - !endround !endwarmup
   - Custom hostname (custom version)
   - [CS:GO] Longer game round
@@ -24,7 +24,7 @@ On hold:
   
 License: 
 
-Updated 2017-07-02
+### Updated 2017-07-02
 
 
 
