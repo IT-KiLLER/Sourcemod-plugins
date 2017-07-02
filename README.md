@@ -4,8 +4,9 @@
 
 ### Released:
   - Plant bomb anywhere
-  - Alltalk
-  - hide teammeates
+  - Spawn protection
+  - Hide teammeates
+  - Alltalk 
 
 ### On hold:
   - !endround !endwarmup
