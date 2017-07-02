@@ -3,10 +3,11 @@
 50 plugins that are created or modified/updated by me will be released
 
 ### Released:
-  - [Plant bomb anywhere](https://github.com/it-killer/CSGO-Plant-bomb-anywhere)
-  - [Spawn protection](https://github.com/it-killer/CSGO-Spawn-protection)
-  - [Hide teammeates](https://github.com/it-killer/CSGO-Hide-teammates)
-  - [All talk](https://github.com/it-killer/CSGO-Alltalk)
+  - [Round KiLLER](https://github.com/IT-KiLLER/CSGO-Round-KiLLER)
+  - [Plant bomb anywhere](https://github.com/IT-KiLLER/CSGO-Plant-bomb-anywhere)
+  - [Spawn protection](https://github.com/IT-KiLLER/CSGO-Spawn-protection)
+  - [Hide teammeates](https://github.com/IT-KiLLER/CSGO-Hide-teammates)
+  - [All talk](https://github.com/IT-KiLLER/CSGO-Alltalk)
 
 
 ### On hold:
