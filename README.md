@@ -3,10 +3,11 @@
 50 plugins that are created or modified/updated by me will be released
 
 ### Released:
-  - Plant bomb anywhere
-  - Spawn protection
-  - Hide teammeates
-  - Alltalk 
+  - [Plant bomb anywhere](https://github.com/it-killer/CSGO-Plant-bomb-anywhere)
+  - [Spawn protection](https://github.com/it-killer/CSGO-Spawn-protection)
+  - [Hide teammeates](https://github.com/it-killer/CSGO-Hide-teammates)
+  - [All talk](https://github.com/it-killer/CSGO-Alltalk)
+
 
 ### On hold:
   - !endround !endwarmup
@@ -21,7 +22,6 @@
   - Noblock (custom version)
   - HP viewer (eg. boss)
   - Remove smoke particles !smoke
-  - Spawn protection
   
 License: 
 
