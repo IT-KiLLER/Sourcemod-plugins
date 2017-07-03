@@ -24,7 +24,7 @@
   - zeph !store raffle (modified version)
   - Commnad KiLLER (block sm plugins, status, ping etc).
   
-License: 
+License: [GNU General Public License v3.0](https://github.com/IT-KiLLER/Sourcemod-plugins/blob/master/LICENSE)
 
 Please feel free to contact me if you have any questions.
 it-killer@protonmail.com
