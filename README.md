@@ -3,6 +3,7 @@
 50 plugins that are created or modified/updated by me will be released
 
 ### Released:
+  - [Timeleft in Hostname](https://github.com/IT-KiLLER/CSGO-Timeleft-in-Hostname)
   - [Round Time KiLLER](https://github.com/IT-KiLLER/CSGO-Round-Time-KiLLER)
   - [Round KiLLER](https://github.com/IT-KiLLER/CSGO-Round-KiLLER)
   - [Plant bomb anywhere](https://github.com/IT-KiLLER/CSGO-Plant-bomb-anywhere)
@@ -11,7 +12,6 @@
   - [All talk](https://github.com/IT-KiLLER/CSGO-Alltalk)
 
 ### On hold:
-  - Custom hostname (custom version)
   - Quick fix for connection kick (WINDOWS)
   - Entwatch (modified version)
   - Entwatch helper
