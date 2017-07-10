@@ -2,7 +2,7 @@
 
 50 plugins that are created or modified/updated by me will be released
 
-### Released:
+### Releases:
   - [Timeleft in Hostname](https://github.com/IT-KiLLER/CSGO-Timeleft-in-Hostname)
   - [Round Time KiLLER](https://github.com/IT-KiLLER/CSGO-Round-Time-KiLLER)
   - [Round KiLLER](https://github.com/IT-KiLLER/CSGO-Round-KiLLER)
