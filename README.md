@@ -3,6 +3,7 @@
 50 plugins that are created or modified/updated by me will be released
 
 ### Releases:
+  - [QUICK FIX FOR KICKING ISSUES 2017 (Host_Error: CL_ReadPreserveEnt: u.m_nNewEntity == MAX_EDICTS)](https://github.com/IT-KiLLER/CSGO-QUICK-FIX-FOR-KICKING-ISSUES-2017)
   - [Timeleft in Hostname](https://github.com/IT-KiLLER/CSGO-Timeleft-in-Hostname)
   - [Round Time KiLLER](https://github.com/IT-KiLLER/CSGO-Round-Time-KiLLER)
   - [Round KiLLER](https://github.com/IT-KiLLER/CSGO-Round-KiLLER)
@@ -12,12 +13,11 @@
   - [All talk](https://github.com/IT-KiLLER/CSGO-Alltalk)
 
 ### On hold:
-  - Quick fix for connection kick (WINDOWS)
+  - Top Defenders (Soon official released)
   - Entwatch (modified version)
   - Entwatch helper
   - Admin room finder !adminroom
   - Killmusic
-  - Heal Viewer
   - Noblock (custom version)
   - HP viewer (eg. boss)
   - Remove smoke particles !smoke
@@ -29,7 +29,7 @@ License: [GNU General Public License v3.0](https://github.com/IT-KiLLER/Sourcemo
 Please feel free to contact me if you have any questions.
 it-killer@protonmail.com
 
-### Updated 2017-07-02
+### Updated 2017-07-13
 
 
 
