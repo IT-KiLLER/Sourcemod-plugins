@@ -4,13 +4,13 @@
 
 ### Releases:
   - [QUICK FIX FOR KICKING ISSUES 2017 (Host_Error: CL_ReadPreserveEnt: u.m_nNewEntity == MAX_EDICTS)](https://github.com/IT-KiLLER/CSGO-QUICK-FIX-FOR-KICKING-ISSUES-2017)
-  - [Timeleft in Hostname 2.0](https://github.com/IT-KiLLER/CSGO-Timeleft-in-Hostname)
-  - [Round Time KiLLER 1.0](https://github.com/IT-KiLLER/CSGO-Round-Time-KiLLER)
-  - [Round KiLLER 1.1](https://github.com/IT-KiLLER/CSGO-Round-KiLLER)
-  - [Plant bomb anywhere 1.1](https://github.com/IT-KiLLER/CSGO-Plant-bomb-anywhere)
-  - [Spawn protection 1.1](https://github.com/IT-KiLLER/CSGO-Spawn-protection)
-  - [Hide teammeates 1.0](https://github.com/IT-KiLLER/CSGO-Hide-teammates)
-  - [All talk 1.0](https://github.com/IT-KiLLER/CSGO-Alltalk)
+  - [Timeleft in Hostname **2.0**](https://github.com/IT-KiLLER/CSGO-Timeleft-in-Hostname)
+  - [Round Time KiLLER **1.0**](https://github.com/IT-KiLLER/CSGO-Round-Time-KiLLER)
+  - [Round KiLLER **1.1**](https://github.com/IT-KiLLER/CSGO-Round-KiLLER)
+  - [Plant bomb anywhere **1.1**](https://github.com/IT-KiLLER/CSGO-Plant-bomb-anywhere)
+  - [Spawn protection **1.1**](https://github.com/IT-KiLLER/CSGO-Spawn-protection)
+  - [Hide teammeates **1.0**](https://github.com/IT-KiLLER/CSGO-Hide-teammates)
+  - [All talk **1.0**](https://github.com/IT-KiLLER/CSGO-Alltalk)
 
 ### On hold:
   - Top Defenders (Soon official released)
