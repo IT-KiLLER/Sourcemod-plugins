@@ -3,7 +3,7 @@
 50 plugins that are created or modified/updated by me will be released
 
 ### Releases:
-  - [Top Defenders 1.0](https://github.com/IT-KiLLER/CSGO-TOP-DEFENDERS)
+  - [Top Defenders **1.0**](https://github.com/IT-KiLLER/CSGO-TOP-DEFENDERS)
   - [QUICK FIX FOR KICKING ISSUES 2017 (Host_Error: CL_ReadPreserveEnt: u.m_nNewEntity == MAX_EDICTS)](https://github.com/IT-KiLLER/CSGO-QUICK-FIX-FOR-KICKING-ISSUES-2017)
   - [Timeleft in Hostname **2.0**](https://github.com/IT-KiLLER/CSGO-Timeleft-in-Hostname)
   - [Round Time KiLLER **1.0**](https://github.com/IT-KiLLER/CSGO-Round-Time-KiLLER)
