@@ -14,9 +14,9 @@
   - [All talk **1.0**](https://github.com/IT-KiLLER/CSGO-Alltalk)
 
 ### On hold:
+  - Admin room finder !adminroom
   - Entwatch (modified version)
   - Entwatch helper
-  - Admin room finder !adminroom
   - Killmusic
   - Noblock (custom version)
   - HP viewer (eg. boss)
