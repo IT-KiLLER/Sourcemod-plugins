@@ -8,7 +8,7 @@
   - [Timeleft in Hostname **2.0**](https://github.com/IT-KiLLER/CSGO-Timeleft-in-Hostname)
   - [Round Time KiLLER **1.0**](https://github.com/IT-KiLLER/CSGO-Round-Time-KiLLER)
   - [Round KiLLER **1.1**](https://github.com/IT-KiLLER/CSGO-Round-KiLLER)
-  - [Plant bomb anywhere **1.1**](https://github.com/IT-KiLLER/CSGO-Plant-bomb-anywhere)
+  - [Plant bomb anywhere **1.0**](https://github.com/IT-KiLLER/CSGO-Plant-bomb-anywhere)
   - [Spawn protection **1.1**](https://github.com/IT-KiLLER/CSGO-Spawn-protection)
   - [Hide teammeates **1.0**](https://github.com/IT-KiLLER/CSGO-Hide-teammates)
   - [Enforce Alltalk **1.1**](https://github.com/IT-KiLLER/CSGO-Alltalk)
