@@ -11,7 +11,7 @@
   - [Plant bomb anywhere **1.1**](https://github.com/IT-KiLLER/CSGO-Plant-bomb-anywhere)
   - [Spawn protection **1.1**](https://github.com/IT-KiLLER/CSGO-Spawn-protection)
   - [Hide teammeates **1.0**](https://github.com/IT-KiLLER/CSGO-Hide-teammates)
-  - [All talk **1.0**](https://github.com/IT-KiLLER/CSGO-Alltalk)
+  - [Enforce Alltalk **1.1**](https://github.com/IT-KiLLER/CSGO-Alltalk)
 
 ### On hold:
   - Admin room finder !adminroom
@@ -29,7 +29,7 @@ License: [GNU General Public License v3.0](https://github.com/IT-KiLLER/Sourcemo
 Please feel free to contact me if you have any questions.
 it-killer@protonmail.com
 
-### Updated 2017-07-17
+### Updated 2017-07-23
 
 
 
