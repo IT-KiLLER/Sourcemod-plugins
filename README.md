@@ -1,6 +1,6 @@
 # Sourcemod-plugins, CS:GO
 
-50 plugins that are created or modified/updated by me will be released
+80 plugins that are created (or modified/updated) by me will be release.
 
 ### Releases:
   - [AMMO BOX FIX **1.0** (2017-08-26)](https://github.com/IT-KiLLER/CSGO-AMMO-BOX-FIX)
@@ -18,30 +18,20 @@
 ### In Developing:
   - Admin room finder !adminroom !buttonpress (in progress)
   - Entwatch helper (in progress)
+  - 30 Tools for Mappers (in progress)
+  - Super light (in progress)
+  - Entwatch (modified/updated version in progress)
+  - BOSSHP viewer (in progress)
   
 ### On Hold:
   - Noblock (custom version)
-  - Entwatch (modified version)
   - Killmusic
-  - HP viewer (eg. boss)
   - Remove smoke particles !smoke
   - zeph !store raffle (modified version)
   - Commnad KiLLER (block sm plugins, status, ping etc).
   
-License: [GNU General Public License v3.0](https://github.com/IT-KiLLER/Sourcemod-plugins/blob/master/LICENSE)
+**License**: [GNU General Public License v3.0](https://github.com/IT-KiLLER/Sourcemod-plugins/blob/master/LICENSE)
 
 Please feel free to contact me if you have any questions. [contact information here](https://github.com/IT-KiLLER/HOW-TO-CONTACT-ME)
 
 ### Updated 2017-08-27
-
-
-
-
-
-
-
-
-
-
-
-
