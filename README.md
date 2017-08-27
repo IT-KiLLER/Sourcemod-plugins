@@ -32,7 +32,7 @@ License: [GNU General Public License v3.0](https://github.com/IT-KiLLER/Sourcemo
 
 Please feel free to contact me if you have any questions. [contact information here](https://github.com/IT-KiLLER/HOW-TO-CONTACT-ME)
 
-### Updated 2017-08-10
+### Updated 2017-08-27
 
 
 
