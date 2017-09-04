@@ -5,8 +5,7 @@
 ### Releases:
   - [AMMO BOX FIX **1.0** (2017-08-26)](https://github.com/IT-KiLLER/CSGO-AMMO-BOX-FIX)
   - [Top Defenders **1.0**](https://github.com/IT-KiLLER/CSGO-TOP-DEFENDERS)
-  - [TTS - Teleports and Triggers Stopper **1.0**](https://github.com/IT-KiLLER/CSGO-TTS-Teleports-and-Triggers-Stopper)
-  - [QUICK FIX FOR KICKING ISSUES 2017 (Host_Error: CL_ReadPreserveEnt: u.m_nNewEntity == MAX_EDICTS)](https://github.com/IT-KiLLER/CSGO-QUICK-FIX-FOR-KICKING-ISSUES-2017)
+  - [TTS - Teleports and Triggers Stopper **1.1** (2017-09-04)](https://github.com/IT-KiLLER/CSGO-TTS-Teleports-and-Triggers-Stopper)
   - [Timeleft in Hostname **2.0**](https://github.com/IT-KiLLER/CSGO-Timeleft-in-Hostname)
   - [Round Time KiLLER **1.0**](https://github.com/IT-KiLLER/CSGO-Round-Time-KiLLER)
   - [Round KiLLER **1.1**](https://github.com/IT-KiLLER/CSGO-Round-KiLLER)
@@ -30,8 +29,12 @@
   - zeph !store raffle (modified version)
   - Commnad KiLLER (block sm plugins, status, ping etc).
   
+### Broken:
+  - [QUICK FIX FOR KICKING ISSUES 2017 (Host_Error: CL_ReadPreserveEnt: u.m_nNewEntity == MAX_EDICTS)](https://github.com/IT-KiLLER/CSGO-QUICK-FIX-FOR-KICKING-ISSUES-2017)
+  
+  
 **License**: [GNU General Public License v3.0](https://github.com/IT-KiLLER/Sourcemod-plugins/blob/master/LICENSE)
 
 Please feel free to contact me if you have any questions. [contact information here](https://github.com/IT-KiLLER/HOW-TO-CONTACT-ME)
 
-### Updated 2017-08-27
+### Updated 2017-09-04
