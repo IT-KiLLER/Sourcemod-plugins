@@ -3,9 +3,10 @@
 80 plugins that are created (or modified/updated) by me will be release.
 
 ### Releases:
+  - [Self-Mute Intelligence **1.5** (2017-10-23)](https://github.com/IT-KiLLER/CSGO-Self-Mute-Intelligence/)
   - [AMMO BOX FIX **1.0** (2017-08-26)](https://github.com/IT-KiLLER/CSGO-AMMO-BOX-FIX)
   - [Top Defenders **1.0**](https://github.com/IT-KiLLER/CSGO-TOP-DEFENDERS)
-  - [TTS - Teleports and Triggers Stopper **1.1** (2017-09-04)](https://github.com/IT-KiLLER/CSGO-TTS-Teleports-and-Triggers-Stopper)
+  - [TTS - Teleports and Triggers Stopper **1.2** (2017-09-05)](https://github.com/IT-KiLLER/CSGO-TTS-Teleports-and-Triggers-Stopper)
   - [Timeleft in Hostname **2.0**](https://github.com/IT-KiLLER/CSGO-Timeleft-in-Hostname)
   - [Round Time KiLLER **1.0**](https://github.com/IT-KiLLER/CSGO-Round-Time-KiLLER)
   - [Round KiLLER **1.1**](https://github.com/IT-KiLLER/CSGO-Round-KiLLER)
