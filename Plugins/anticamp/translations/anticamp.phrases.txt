@@ -1,0 +1,10 @@
+"Phrases"
+{
+	"Player camping"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:c},{5:c},{6:c},{7:c},{8:c},{9:c}"
+		"en"			"{4}Player:{5} {1}{6} is camping with{7} {2}{8} @{9} {3}"
+		"de"			"{4}Spieler:{5} {1}{6} campt mit{7} {2}{8} @{9} {3}"
+		"hu"			"{4}{5}{1}{6} játékos táborozik ezzel a fegyverrel:{7} {2}{8} @{9} {3}"
+	}	
+}
