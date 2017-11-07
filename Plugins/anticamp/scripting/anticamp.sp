@@ -26,7 +26,7 @@
 #define YELLOW				 "\x01"
 #define TEAMCOLOR			 "\x03"
 #define GREEN				 "\x04"
-#define PLUGIN_VERSION "2.5.3"
+#define PLUGIN_VERSION "2.5.4"
 #define NON_CAMPER_DELAY 1.0
 #define MAX_WEAPONS 49
 
@@ -37,7 +37,7 @@ public Plugin:myinfo =
 	author = "stachi, IT-KiLLER",
 	description = "Detects camping players",
 	version = PLUGIN_VERSION,
-	url = "http://www.stachi.de/"
+	url = "https://github.com/IT-KiLLER"
 };
 
 enum GameType
@@ -93,7 +93,7 @@ new Handle:g_CvarAllowTCamp = INVALID_HANDLE;
 new Handle:g_CvarAllowTCampPlanted = INVALID_HANDLE;
 new Handle:g_CvarAllowCtCamp = INVALID_HANDLE;
 new Handle:g_CvarAllowCtCampDropped = INVALID_HANDLE;
-
+ConVar sm_anticamp_slap_vel, sm_anticamp_slap_speedmax;
 new g_beamSprite;
 new g_haloSprite;
 new g_MoneyOffset;
@@ -114,6 +114,8 @@ public OnPluginStart()
 	g_CvarBlind = CreateConVar("sm_anticamp_blind", "0", "Blind a player while camping", 0, true, 0.0, true, 1.0);
 	g_CvarSlapSlay = CreateConVar("sm_anticamp_slap_mode", "1", "Set 1 to slap or 2 to slay (kills instantly). Set 0 to disable both", 0, true, 0.0, true, 2.0);
 	g_CvarSlapDmg = CreateConVar("sm_anticamp_slap_dmg", "5", "Amount of health decrease while camping every sm_anticamp_punish_freq. Ignored for slay", 0, true, 0.0, true, 100.0);
+	sm_anticamp_slap_vel = CreateConVar("sm_anticamp_slap_vel", "-250", "How strong the push should be.", 0, true, -500.0, true, 500.0);
+	sm_anticamp_slap_speedmax = CreateConVar("sm_anticamp_slap_speedmax", "140", "The maximum speed otherwise the player becomes slow.", 0, true, -500.0, true, 500.0);
 	g_CvarMinHealth = CreateConVar("sm_anticamp_minhealth", "15", "Minimum health a camper reserves. Set 0 to slap till dead. If slay set the health from which player will not be killed", 0, true, 0.0, true, 100.0);
 	g_CvarPunishDelay = CreateConVar("sm_anticamp_punish_delay", "2", "Delay between camper notification and first punishment in secounds", 0, true, 0.0, true, 60.0);
 	g_CvarPunishFreq = CreateConVar("sm_anticamp_punish_freq", "2", "Time between punishments while camping in secounds", 0, true, 1.0, true, 60.0);
@@ -170,6 +172,11 @@ public OnMapStart()
 	{
 		g_beamSprite = PrecacheModel("materials/sprites/laserbeam.vmt");
 		g_haloSprite = PrecacheModel("materials/sprites/halo.vmt");
+		// slap sounds
+		PrecacheSound("player/damage1.wav",true);
+		PrecacheSound("player/damage2.wav",true);
+		PrecacheSound("player/damage3.wav",true);
+
 	}
 	else
 	{
@@ -640,24 +647,40 @@ public Action:PunishTimer(Handle:timer, any:client)
 		{
 			// slap player
 			new SlapDmg = GetConVarInt(g_CvarSlapDmg);
+			float pushVel = sm_anticamp_slap_vel.FloatValue;
 
 			if(ClientHealth > MinHealth)
 			{
 				ClientHealth -= SlapDmg;
-
 				if(ClientHealth > MinHealth || MinHealth <= 0)
-					SlapPlayer(client, SlapDmg, true);
+				{
+					//SlapPlayer(client, SlapDmg, true);
+					SlowDownPlayer(client);
+					PushPlayer(client, 0.0, 0.0, pushVel);
+					PushPlayer(client, pushVel, 0.0, 0.0);
+					SetEntityHealth(client, ClientHealth);
+					SlowDownPlayer(client);
+				}
 				else
 				{
 					if(!GetConVarBool(g_CvarPunishAnyway))
 						ResetTimer(client);
 
+					SlowDownPlayer(client);
+					PushPlayer(client, 0.0, 0.0, pushVel);
+					PushPlayer(client, pushVel, 0.0, 0.0);
 					SetEntityHealth(client, MinHealth);
-					SlapPlayer(client, 0, true);
+					SlowDownPlayer(client);
+					//SlapPlayer(client, 0, true);
 				}
 			}
 			else if(GetConVarBool(g_CvarPunishAnyway))
-				SlapPlayer(client, 0, true);
+			{
+				SlowDownPlayer(client);
+				PushPlayer(client, 0.0, 0.0, pushVel);
+				PushPlayer(client, pushVel, 0.0, 0.0);
+				SlowDownPlayer(client);
+			}
 		}
 		case 2:
 		{
@@ -665,6 +688,16 @@ public Action:PunishTimer(Handle:timer, any:client)
 			if(ClientHealth > MinHealth)
 				ForcePlayerSuicide(client);
 		}
+	}
+
+	if(g_iGame == GAME_CSGO)
+	{
+		float vecPos[3];
+		GetClientAbsOrigin(client, vecPos);
+
+		char g_slapSound[24];
+		Format(g_slapSound, 64, "player/damage%i.wav", GetRandomInt(1, 3));
+		EmitSoundToAll(g_slapSound, client, SNDCHAN_AUTO, SNDLEVEL_NORMAL, SND_NOFLAGS, 1.0, SNDPITCH_NORMAL, -1, vecPos, NULL_VECTOR, true, 0.0);
 	}
 
 	// blind player
@@ -682,6 +715,33 @@ public Action:PunishTimer(Handle:timer, any:client)
 	}
 
 	return Plugin_Handled;
+}
+
+stock PushPlayer(int client, float A = 0.0, float B = 0.0, float C = 0.0)
+{
+	float vecVelo[3];
+	vecVelo[0] = A;
+	vecVelo[1] = B;
+	vecVelo[2] = C;
+	SetEntPropVector(client, Prop_Data, "m_vecBaseVelocity", vecVelo);
+}
+
+stock SlowDownPlayer(int client){
+	float fAbsVelocity[3];
+	GetEntPropVector(client, Prop_Data, "m_vecAbsVelocity", fAbsVelocity);
+	float fCurrentSpeed = SquareRoot(Pow(fAbsVelocity[0], 2.0) + Pow(fAbsVelocity[1], 2.0));
+	if(fCurrentSpeed > 0.0)
+	{
+		float fMax = sm_anticamp_slap_speedmax.FloatValue;
+		if(fCurrentSpeed > fMax)
+		{
+			float x = fCurrentSpeed / fMax;
+			fAbsVelocity[0] /= x;
+			fAbsVelocity[1] /= x;
+			
+			TeleportEntity(client, NULL_VECTOR, NULL_VECTOR, fAbsVelocity);
+		}
+	}
 }
 
 public Action:BeaconTimer2(Handle:timer, any:client)
