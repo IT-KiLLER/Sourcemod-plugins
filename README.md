@@ -14,6 +14,7 @@
   - [Spawn protection **1.1**](https://github.com/IT-KiLLER/CSGO-Spawn-protection)
   - [Hide teammeates **1.0**](https://github.com/IT-KiLLER/CSGO-Hide-teammates)
   - [Enforce Alltalk **1.2** (2017-08-15)](https://github.com/IT-KiLLER/CSGO-Alltalk)
+  - [Last-Request-LEADERBOARD **1.0** (2017-11-26 **NEW**)](https://github.com/IT-KiLLER/CSGO-JailBreak-Last-Request-LEADERBOARD)
 
 ### In Developing:
   - Admin room finder !adminroom !buttonpress (in progress)
