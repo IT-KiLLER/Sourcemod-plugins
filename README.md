@@ -16,6 +16,8 @@
   - [Enforce Alltalk **1.2** (2017-08-15)](https://github.com/IT-KiLLER/CSGO-Alltalk)
   - [Last-Request-LEADERBOARD **1.0** (2017-11-26 **NEW**)](https://github.com/IT-KiLLER/CSGO-JailBreak-Last-Request-LEADERBOARD)
 
+#### [Plugin without repos](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins)
+
 ### In Developing:
   - Admin room finder !adminroom !buttonpress (in progress)
   - Entwatch helper (in progress)
@@ -39,4 +41,4 @@
 
 Please feel free to contact me if you have any questions. [contact information here](https://github.com/IT-KiLLER/HOW-TO-CONTACT-ME)
 
-### Updated 2017-11-26
+### Updated 2017-12-10
