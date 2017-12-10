@@ -34,7 +34,7 @@ public void OnClientPutInServer(int client)
  
 public Action OnTakeDamage(int victim, int &attacker, int &inflictor, float &damage, int &damagetype, int &weapon, float damageForce[3], float damagePosition[3], int damagecustom)
 {
-	if (!victim || !attacker || attacker == victim) return Plugin_Continue;
+	if (!weapon || !victim || !attacker || attacker == victim || !IsValidEntity(weapon)) return Plugin_Continue;
 
 	char sWeapon[64];
 	GetEntityClassname(weapon, sWeapon, 64);
