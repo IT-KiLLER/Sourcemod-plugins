@@ -29,15 +29,16 @@ public void OnPluginStart()
 public void OnClientPutInServer(int client)
 {
 	SDKHook(client, SDKHook_OnTakeDamage, OnTakeDamage);
+	Marked[client] = false;
 }
  
-public Action OnTakeDamage(int victim, int &attacker, int &inflictor, float &damage, int &damagetype)
+public Action OnTakeDamage(int victim, int &attacker, int &inflictor, float &damage, int &damagetype, int &weapon, float damageForce[3], float damagePosition[3], int damagecustom)
 {
 	if (!victim || !attacker) return Plugin_Continue;
 
-	char weapon[64];
-	GetClientWeapon(attacker, weapon, sizeof(weapon));
-	if (StrContains(weapon, "knife") != -1 || StrEqual(weapon, "weapon_bayonet"))
+	char sWeapon[64];
+	GetEntityClassname(weapon, sWeapon, 64);
+	if (StrContains(sWeapon, "knife") != -1 || StrEqual(sWeapon, "weapon_bayonet"))
 	{
 		if (!Marked[victim])
 		{
