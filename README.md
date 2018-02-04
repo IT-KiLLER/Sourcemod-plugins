@@ -3,7 +3,8 @@
 80 plugins that are created (or modified/updated) by me will be release.
 
 ### Releases:
-  - [Self-Mute Intelligence **1.5** (2017-10-23)](https://github.com/IT-KiLLER/CSGO-Self-Mute-Intelligence/)
+  - [Admin Room Finder **1.0** (2017-01-26)](https://github.com/IT-KiLLER/CSGO-Admin-Room-Finder)
+  - [Self-Mute Intelligence **1.5** (2017-10-23)](https://github.com/IT-KiLLER/CSGO-Self-Mute-Intelligence)
   - [AMMO BOX FIX **1.0** (2017-08-26)](https://github.com/IT-KiLLER/CSGO-AMMO-BOX-FIX)
   - [Top Defenders **1.0**](https://github.com/IT-KiLLER/CSGO-TOP-DEFENDERS)
   - [TTS - Teleports and Triggers Stopper **1.2** (2017-09-05)](https://github.com/IT-KiLLER/CSGO-TTS-Teleports-and-Triggers-Stopper)
@@ -12,14 +13,13 @@
   - [Round KiLLER **1.1**](https://github.com/IT-KiLLER/CSGO-Round-KiLLER)
   - [Plant bomb anywhere **1.0**](https://github.com/IT-KiLLER/CSGO-Plant-bomb-anywhere)
   - [Spawn protection **1.1**](https://github.com/IT-KiLLER/CSGO-Spawn-protection)
-  - [Hide teammeates **1.0**](https://github.com/IT-KiLLER/CSGO-Hide-teammates)
+  - [Hide teammeates **1.2** (2018-01-07)](https://github.com/IT-KiLLER/CSGO-Hide-teammates)
   - [Enforce Alltalk **1.2** (2017-08-15)](https://github.com/IT-KiLLER/CSGO-Alltalk)
   - [Last-Request-LEADERBOARD **1.0** (2017-11-26 **NEW**)](https://github.com/IT-KiLLER/CSGO-JailBreak-Last-Request-LEADERBOARD)
 
 #### [Plugin without repos](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins)
 
 ### In Developing:
-  - Admin room finder !adminroom !buttonpress (in progress)
   - Entwatch helper (in progress)
   - 30 Tools for Mappers (in progress)
   - Super light (in progress)
@@ -41,4 +41,4 @@
 
 Please feel free to contact me if you have any questions. [contact information here](https://github.com/IT-KiLLER/HOW-TO-CONTACT-ME)
 
-### Updated 2017-12-10
+### Updated 2018-02-04
