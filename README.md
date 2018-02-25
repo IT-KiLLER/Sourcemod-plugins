@@ -19,7 +19,7 @@
 
 #### [Plugin without repos](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins)
   - [Clear server console **1.0 pre-release** (2018-02-25 **NEW**)](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins/Clear%20server%20console)
-  - [SM DEV Zones - Slay **1.0* (2018-02-25 **NEW**)](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins/SM%20DEV%20Zones%20-%20Slay)
+  - [SM DEV Zones - Slay **1.0** (2018-02-25 **NEW**)](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins/SM%20DEV%20Zones%20-%20Slay)
   - [Zero Nominations Day **1.0 pre-release** (2018-02-25 **NEW**)](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins/Zero%20Nominations%20Day)
   - [antiblood **1.0** (**NEW**)](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins/antiblood)  
   - [anitcamp (**NEW**)](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins/anticamp)  
