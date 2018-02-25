@@ -3,7 +3,8 @@
 80 plugins that are created (or modified/updated) by me will be release.
 
 ### Releases:
-  - [Admin Room Finder **1.0** (2017-01-26)](https://github.com/IT-KiLLER/CSGO-Admin-Room-Finder)
+  - [Player Exec **1.0** (2017-02-25 **NEW**)](https://github.com/IT-KiLLER/Player-Exec)
+  - [Admin Room Finder **1.0** (2017-01-26 **NEW**)](https://github.com/IT-KiLLER/CSGO-Admin-Room-Finder)
   - [Self-Mute Intelligence **1.5** (2017-10-23)](https://github.com/IT-KiLLER/CSGO-Self-Mute-Intelligence)
   - [AMMO BOX FIX **1.0** (2017-08-26)](https://github.com/IT-KiLLER/CSGO-AMMO-BOX-FIX)
   - [Top Defenders **1.0**](https://github.com/IT-KiLLER/CSGO-TOP-DEFENDERS)
