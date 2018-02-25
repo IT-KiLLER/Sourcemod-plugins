@@ -18,6 +18,14 @@
   - [Last-Request-LEADERBOARD **1.0** (2017-11-26 **NEW**)](https://github.com/IT-KiLLER/CSGO-JailBreak-Last-Request-LEADERBOARD)
 
 #### [Plugin without repos](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins)
+  - [Clear server console **1.0 pre-release** (2018-02-25 **NEW**)](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins/Clear%20server%20console)
+  - [SM DEV Zones - Slay **1.0* (2018-02-25 **NEW**)](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins/SM%20DEV%20Zones%20-%20Slay)
+  - [Zero Nominations Day **1.0 pre-release** (2018-02-25 **NEW**)](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins/Zero%20Nominations%20Day)
+  - [antiblood **1.0** (**NEW**)](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins/antiblood)  
+  - [anitcamp (**NEW**)](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins/anticamp)  
+  - [CSS: !NV **1.0** (2018-02-25 **NEW**)](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins/css-nvgs)
+  - [knife_attack_delay (**NEW**)](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins/knife_attack_delay)
+  - [logconnections (**NEW**)](https://github.com/IT-KiLLER/Sourcemod-plugins/tree/master/Plugins/logconnections)
 
 ### In Developing:
   - Entwatch helper (in progress)
@@ -41,4 +49,4 @@
 
 Please feel free to contact me if you have any questions. [contact information here](https://github.com/IT-KiLLER/HOW-TO-CONTACT-ME)
 
-### Updated 2018-02-04
+### Updated 2018-02-25
