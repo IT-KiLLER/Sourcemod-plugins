@@ -6,7 +6,7 @@ ConVar g_cEnableNoBlood;
 
 public Plugin myinfo = 
 {
-	name = "Anit blood",
+	name = "Anti blood",
 	author = "Bara, IT-KiLLER",
 	description = "Hide blood",
 	version = "1.0",
